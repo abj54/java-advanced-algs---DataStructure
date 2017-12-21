@@ -1,0 +1,24 @@
+Anwesh Joshi
+Late Days:0 
+
+1. 
+janwesh@itserver6:~/cs310/pa3/classes$ java -cp .:../lib/algs4.jar cs310.EditDistance < input.txt 
+Edit distance = 7
+A T 1
+A A 0
+C - 2
+A A 0
+G G 0
+T G 1
+T T 0
+A - 2
+C C 0
+C A 1
+
+
+2. 
+For two strings of length m & n, the runtime is O(mn).
+
+3.
+For two strings of length m and n, a matrix of size (m+1)x(n+1) is formed. Hence the space required = O(mn)
+

@@ -1,0 +1,32 @@
+Anwesh Joshi
+Student ID - 01658167
+
+1. Before deletion: 
+   Total items: 10
+   Valid items: 10
+
+   
+   After deletion:
+   Total item: 10
+   Valid item: 8
+
+2. SeparateChainingHashST time = 75ms
+   LinearProbingHashST time  = 53ms
+   SequentialSearchST time = 41188ms
+   Ordered ST time = 98ms
+
+3. Separate Chaining and Linear probing perform search 
+and insert operation at constant time while Ordered ST 
+performs it at logarithmic time. But SequentialSearch 
+performs insert and search at linear time. Out of all 4,
+as seen in times obtained from (2), Linear Probing is fastest
+ and Separate Chaining is comparable to that followed by 
+Ordered ST while Sequential Search takes a lot longer time.
+
+4. 139043 words in tale.txt [wc -w tale.txt]
+
+5. 19695 unique words [wc -l lstread.txt]
+
+6. "the" - 7515  [sort -n -k 2 lstread.txt] 
+
+
