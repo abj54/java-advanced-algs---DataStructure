@@ -1,5 +1,4 @@
 Anwesh Joshi
-Student ID - 01658167
 
 1. Before deletion: 
    Total items: 10
